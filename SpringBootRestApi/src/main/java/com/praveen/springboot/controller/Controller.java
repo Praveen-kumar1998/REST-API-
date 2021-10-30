@@ -18,7 +18,7 @@ import com.praveen.springboot.entity.Customer;
 import com.praveen.springboot.service.CustomerService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping
 public class Controller {
 
 	@Autowired
